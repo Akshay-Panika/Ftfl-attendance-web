@@ -135,7 +135,7 @@ class _EmployeeState extends State<Employee> {
               itemCount: filteredList.length,
               itemBuilder: (context, index) {
                 return ListTile(
-                  leading: Icon(Icons.person, color: Colors.blue),
+                  leading: Icon(Icons.person, color: Colors.grey),
                   title: Text(
                     filteredList[index],
                     style: textStyle14(fontWeight: FontWeight.w600),

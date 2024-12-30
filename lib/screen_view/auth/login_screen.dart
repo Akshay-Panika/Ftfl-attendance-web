@@ -188,7 +188,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                                   closeIconColor: Colors.blue.shade900,
                                                   content: Text('Logging in...', style: textStyle12(color: Colors.black),)),
                                             );
-                                            customNavigate(context, DashboardScreen());
+                                            customNavigatePR(context, DashboardScreen());
                                           }
                                         },
                                       ),
